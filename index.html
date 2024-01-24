@@ -14,8 +14,16 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- styled css -->
   <style>
-    .font-manrope {
+    * {
       font-family: 'Manrope', sans-serif;
+
+    }
+
+    .link {
+      color: rgba(255, 255, 255, 0.60);
+      font-size: 1rem;
+      font-weight: 500;
+
     }
   </style>
 </head>
@@ -120,7 +128,7 @@
         hockey
         nationwide.</p>
     </div>
-    <div class="container gap-6 lg:flex gap-6">
+    <div class="container gap-6  lg:flex gap-6">
       <div class="card w-[573px] sm:ml-5  lg:ml-28 bg-base-100 image-full">
         <figure><img src="./Images/2.png" alt="Shoes" /></figure>
         <div class="card-body mt-52">
@@ -160,14 +168,113 @@
                 </div>
               </div>
           </div>
-          <section class="new-product mt-20">
+          <section class="new-product my-20">
             <h1 class="text-center">Our New Product</h1>
-            <p>Think about the who, what, when, where, why and how before writing.
+            <p class="text-center">Think about the who, what, when, where, why and how before writing.
               Determine the best format to describe your products.</p>
           </section>
-  </main>
-  <footer>
+          <!-- Faq Question -->
+          <section class="question">
+            <h2 class="text-center text-[#131318] text-4xl font-extrabold">Clients Question</h2>
+            <p class="text-center">addresses your customers' most common questions and is useful at all stages of the
+              customer journey.</p>
+            <div class="hero rounded-2xl border-2 border-[#1313181a]">
+              <div class="hero-content flex-col lg:px-6 lg:gap-24 lg:flex-row">
+                <img src="./Images/11.png" />
+                <div>
+                  <div class="collapse collapse-plus px-20">
+                    <input type="radio" name="my-accordion-3" checked="checked" />
+                    <div class="collapse-title text-xl font-medium">
+                      Our Equipment
+                    </div>
+                    <div class="collapse-content">
+                      <p>hello</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium">
+                      Hockey Training
+                    </div>
+                    <div class="collapse-content">
+                      <p>hello</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus ">
+                    <input type="radio" name="my-accordion-3" />
+                    <div class="collapse-title text-xl font-medium">
+                      Private Lessons
+                    </div>
+                    <div class="collapse-content">
+                      <p>hello</p>
+                    </div>
+                    <div class="collapse collapse-plus ">
+                      <input type="radio" name="my-accordion-3" />
+                      <div class="collapse-title text-xl font-medium">
+                        Ski Touring
+                      </div>
+                      <div class="collapse-content">
+                        <p>hello</p>
+                      </div>
+                      <div class="collapse collapse-plus ">
+                        <input type="radio" name="my-accordion-3" />
+                        <div class="collapse-title text-xl font-medium">
+                          Booking
+                        </div>
+                        <div class="collapse-content">
+                          <p>hello</p>
+                        </div>
+                        <div class="collapse collapse-plus">
+                          <input type="radio" name="my-accordion-3" />
+                          <div class="collapse-title text-xl font-medium">
+                            Pricings
+                          </div>
+                          <div class="collapse-content">
+                            <p>hello</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
+          </section>
+          <section>
+            <!-- get in touch -->
+          </section>
+  </main>
+  <footer class="footer p-10 bg-[#131318] text-base-content">
+    <aside>
+      <h2 class="text-[#fff]">Get In Touch</h2>
+      <p>A section of content at the bottom of a <br> web page that contains information to improve the website's
+        usability. <br>
+        This
+        information can include a copyright notice,
+      </p>
+      <div></div>
+    </aside>
+    <nav>
+      <header class="footer-title gap-6 text-base text-[#fff] font-bold">Company</header>
+      <a class="link link-hover">About us</a>
+      <a class="link link-hover">Leadership</a>
+      <a class="link link-hover">Careers</a>
+      <a class="link link-hover">News & Article</a>
+      <a class="link link-hover">Legal Notice</a>
+    </nav>
+    <nav>
+      <header class="footer-title gap-6 text-base text-[#fff] font-bold">Support</header>
+      <a class="link link-hover">Help Center</a>
+      <a class="link link-hover">FAQ</a>
+      <a class="link link-hover">Ticket Support</a>
+      <a class="link link-hover">Contact Us</a>
+    </nav>
+    <nav>
+      <header class="footer-title gap-6 text-base text-[#fff] font-bold">Services</header>
+      <a class="link link-hover">Academy</a>
+      <a class="link link-hover">Group Lesson</a>
+      <a class="link link-hover">Private Lesson</a>
+      <a class="link link-hover">Hockeys for Kids</a>
+      <a class="link link-hover">Hockeys for Adult</a>
+    </nav>
   </footer>
 </body>
 
